@@ -8,14 +8,18 @@ For more information on Microsoft Sync Framework, go here: https://msdn.microsof
 Examples:
 
 Copy from folder A: to Folder B:
+
 zsync -f c:\A -t c:\B
 
 Synchronise betweek folder A: and Folder B:
+
 zsync -f c:\A -t c:\B -b
 
 Copy bmp files only
+
 zsync -f c:\A -t c:\B -i *.bmp
 
 Get help
+
 zsync -?
 
